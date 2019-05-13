@@ -1,0 +1,145 @@
+.parallax-main {
+  /* The image used */
+  background-image: url('img/blog-background1.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.content{
+	overflow: hidden;
+	min-height: 100%!important;
+	height: auto;
+}
+.events-list {
+	box-sizing: border-box;
+	padding: 0px 25px;
+}
+.el-el{
+	overflow: hidden;
+	padding: 3px;
+	color: white;
+	width: 100%;
+	min-height: 200px;
+}
+.el-type1{
+	background-color: rgba(15,15,15,1);
+}
+.el-type2{
+	background-color: rgba(25,25,25,1);
+}
+.el-el-header-zone {
+	margin: 5px 0px 10px 0px;
+}
+.el-el-header {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+}
+.el-el-content {
+	font-size: 20px;
+	padding: 5px 25px 25px 25px;
+}
+
+.el-post-tag {
+	font-weight: 700;
+	font-size: 21px;
+}
+.el-post-value {
+	padding: 0px 0px 0px 35px;
+	color: #c1af25;
+	font-weight: 500;
+	font-size: 22px;
+}
+.imp-txt {
+	font-weight: 700;
+	color: rgba(255, 131, 115, 1);
+}
+
+.el-el-post-image-left {
+	padding: 5px 15px 5px 15px;
+	float: left;
+	max-width: 30%;
+}
+.el-el-post-image-right {
+	padding: 5px 15px 5px 15px;
+	float: right;
+	max-width: 30%;
+}
+.post-image1 {
+	width: 200px;
+	min-height: 200px;
+	background: url('img/post-demo-image1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	overflow: hidden;
+}
+.post-image2 {
+	width: 200px;
+	min-height: 200px;
+	background: url('img/post-demo-image2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	overflow: hidden;
+}
+.post-image3 {
+	width: 200px;
+	min-height: 200px;
+	background: url('img/post-demo-image3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	overflow: hidden;
+}
+.el-el-marking-zone{
+	width: 100%;
+	padding: 20px 0px 5px 0px;
+}
+.el-el-marking {
+	word-spacing: 15px;
+	line-height: 20px;
+	position: relative;
+	float: right;
+	margin-top: -20px; 
+}
+.el-el-marking-author {
+	font-weight: 700;
+	color: #c1af25;
+}
+.el-el-marking-date {
+	color: rgba(255,255,255,0.5);
+}
+
+
+
+
+
+
+
+
+.fader{
+    width: 100%;
+    padding-bottom: 15px;
+    max-height:250px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    content: "";
+    position:relative;
+}
+.fader:before {
+    content:'';
+    width:100%;
+    height:100%;    
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(transparent 200px, rgba(15,15,15,1));
+}
